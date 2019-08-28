@@ -31,6 +31,14 @@ Data Preprocessing steps are as follows :-
 
 ![center](./images/libs.png)
 
+### Libraries Used:
+1. Pandas </br>
+2. Numpy </br>
+3. Keras </br>
+4. NLTK </br>
+5. BeautifulSoup </br>
+6. Regular Expression (re) </br>
+
 ***Due to large training dataset Data Preprocessing is very time consumption as well as memory constraint for my Machine. This seems to be very challenging part for me. Well i decided to not for go data preprocessing, instead i will use one of the pretraining word embedding file called Glove. In this file each word is pretrained and has its coefficients. But, Glove don't have embedding matrix. So i will create it manually.***
 
 ![center](./images/embed_matrix.png)
@@ -47,3 +55,5 @@ Choosed batch_size 5000 in oder to make by fitting process faster. considered on
 Model with bit tuning can manage to hit an accuracy of 60 % without any data cleaning.
 ***Performing all Data Preprocessing steps can definitely give best results***
 ![center](./images/accuracy.png)
+
+***NOTE : Since there is no neutral(2) class present in train data, there is no possibility for our model to predict missing class*** 
