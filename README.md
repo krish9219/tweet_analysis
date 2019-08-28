@@ -45,15 +45,21 @@ Data Preprocessing steps are as follows :-
 
 ### Model:
 In this project i'm using Bi-directional LSTM model to get best prediction with out any data cleaning.
+
 ![center](./images/model.png)
+
 
 ### Model Summary:
 Choosed batch_size 5000 in oder to make by fitting process faster. considered only 2 ephocs bcoz from 3rd ephoc model is overfitting.
+
 ![center](./images/model_run.png)
 
 ### Accuracy:
-Model with bit tuning can manage to hit an accuracy of 60 % without any data cleaning.
+Model with bit tuning can manage to hit an accuracy of 60 % without any data cleaning.</br>
 ***Performing all Data Preprocessing steps can definitely give best results***
+
 ![center](./images/accuracy.png)
+
+
 
 ***NOTE : Since there is no neutral(2) class present in train data, there is no possibility for our model to predict missing class*** 
